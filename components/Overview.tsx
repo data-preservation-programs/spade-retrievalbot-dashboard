@@ -229,7 +229,7 @@ function overviewInfoView(overviewDataList: { overviewTimeSeries: OverviewTimeSe
     return (<div>
         <Grid item xs={12}>
             <Alert severity="info">
-                Data has been collected from several Retrieval Bot instances run by <strong>Protocol Labs, Filecoin Foundation, Slingshot, Gravity Assist, New Web Group, </strong> and <strong>Triton</strong>.
+                You are probably looking for the Retrieval Bot dashboard https://retrievalbot-dashboard.vercel.app/
             </Alert>
         </Grid>
         <Grid container spacing={12} key={0} p={3}>

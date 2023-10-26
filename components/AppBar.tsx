@@ -53,7 +53,7 @@ export default function AppBar({
                         flexGrow: 1
                     }}
                 >
-                    Retrieval Bot
+                    Spade Retrieval Bot
                 </Typography>
                 <Typography
                     sx={{color: 'inherit'}}>
@@ -61,10 +61,10 @@ export default function AppBar({
                 </Typography>
                 <Box m={2}/>
                 <Dropdown id='client' label='Client' options={clientsOptions} selected={clients}
-                          setSelected={setClients}/>
+                            setSelected={setClients}/>
                 <Box m={2}/>
                 <Dropdown id='provider' label='Provider' options={providerOptions} selected={providers}
-                          setSelected={setProviders}/>
+                            setSelected={setProviders}/>
                 <Box m={4}/>
                 <DateRangePicker selected={dateRange} setSelected={setDateRange}/>
             </Toolbar>

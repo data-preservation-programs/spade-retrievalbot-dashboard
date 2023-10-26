@@ -13,7 +13,7 @@ export default function Page({}: {
 }) {
     const drawerWidth = 200;
     const searchParams = useSearchParams();
-    const requester = searchParams.get('requester') || 'spadev0'
+    const requester = 'spadev0'
     const defaultClients = searchParams.get('clients')?.split(' ') || []
     const defaultProviders = searchParams.get('providers')?.split(' ') || []
     const defaultDateRange = (searchParams.get('dateRange') || '14d') as DateRange
